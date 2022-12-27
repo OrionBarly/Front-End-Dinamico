@@ -1,0 +1,94 @@
+header {
+  height: 70px;
+  align-items: center;
+  display: flex;
+  color: aquamarine;
+  margin: 10% auto 0;
+  background-color: black;
+  position: relative;
+}
+
+header::before,
+header::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  background: linear-gradient(
+    45deg,
+    #99ffcc,
+    #99cccc,
+    #9999cc,
+    #9966cc,
+    #9933cc,
+    #9900cc,
+    #9933cc,
+    #9966cc,
+    #9999cc,
+    #99cccc
+  );
+  background-size: 400%;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  z-index: -1;
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.logo img {
+  height: 100px;
+  margin-right: 10px;
+}
+
+.redes a {
+  align-items: center;
+  text-decoration: none;
+  transition: 0.45s ease;
+  float: right;
+  color: white;
+  size: 30rem;
+  display: flex;
+  margin: 2rem;
+  border-radius: 0.6rem;
+  position: relative;
+  padding: 0.5rem;
+  overflow: none;
+}
+
+.redes a:hover {
+  background: green;
+  padding: 1rem;
+}
+
+.logein a {
+  align-items: center;
+  color: aliceblue;
+  transition: 0.45s ease;
+  border-radius: 0.6rem;
+  display: flex;
+  overflow: none;
+  text-decoration: none;
+  margin: 2rem;
+}
+
+.logein a:hover {
+  padding: 1rem;
+  background: #9999cc;
+}
