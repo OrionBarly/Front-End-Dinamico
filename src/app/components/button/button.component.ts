@@ -9,6 +9,7 @@ export class ButtonComponent {
   @Input() text: string = '';
   @Input() color: string = '';
   @Output() btnClick = new EventEmitter();
+
   constructor() {}
 
   ngOnInit(): void {}
