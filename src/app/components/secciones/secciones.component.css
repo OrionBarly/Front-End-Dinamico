@@ -1,0 +1,18 @@
+section {
+  background: rgba(0, 2, 1, 0.879);
+  align-items: center;
+  border-radius: 1em;
+  color: #99ffcc;
+  margin: 3em 1.5em;
+  justify-content: center;
+  padding: 2rem;
+  box-shadow: inset 0 0 0.7em rgb(2, 190, 14), 0 0 0.7em rgb(2, 190, 14);
+  border: #99ffcc;
+  letter-spacing: 0.1em;
+}
+
+section p {
+  font-family: "Teko", sans-serif;
+  font-size: 23px;
+  letter-spacing: 0.1em;
+}

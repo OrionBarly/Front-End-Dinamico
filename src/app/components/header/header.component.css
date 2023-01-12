@@ -1,11 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap");
+
 header {
-  height: 70px;
+  min-height: 70px;
+  max-height: 200px;
   align-items: center;
   display: flex;
-  color: aquamarine;
-  margin: 10% auto 0;
+  margin: 30px auto 0;
   background-color: black;
   position: relative;
+  justify-content: space-between;
+  font-family: "Rubik 80s Fade", cursive;
 }
 
 header::before,
@@ -14,6 +18,7 @@ header::after {
   position: absolute;
   left: -2px;
   right: -2px;
+  top: -2px;
   background: linear-gradient(
     45deg,
     #99ffcc,
@@ -44,4 +49,15 @@ header::after {
   100% {
     background-position: 0 0;
   }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: aquamarine;
+}
+
+.logo img {
+  max-height: 160px;
 }

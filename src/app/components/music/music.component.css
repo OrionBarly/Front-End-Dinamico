@@ -1,0 +1,46 @@
+.button {
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  cursor: pointer;
+  width: 95%;
+  margin-bottom: 30px;
+  position: fixed;
+  z-index: +1;
+  top: 40px;
+}
+
+.button .btn-1 {
+  margin-left: 5%;
+}
+
+.btn-1:hover {
+  background-color: #03cc00;
+  padding: 5px 5px;
+  border-radius: 20px;
+  transition: 0.45s;
+  box-shadow: 0 0 10px 5px #03cc00;
+}
+
+.btn-2:hover {
+  background-color: #cc00c2;
+  padding: 5px 5px;
+  border-radius: 20px;
+  transition: 0.45s;
+  box-shadow: 0 0 10px 5px #cc00c2;
+}
+
+.btn-1.on {
+  background-color: #03cc00;
+  border-radius: 20px;
+  transition: 0.45s;
+  box-shadow: 0 0 10px 5px #03cc00;
+}
+
+.btn-2.on {
+  background-color: #cc00c2;
+  border-radius: 20px;
+  transition: 0.45s;
+  box-shadow: 0 0 10px 5px #cc00c2;
+}

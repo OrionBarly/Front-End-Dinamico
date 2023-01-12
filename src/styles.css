@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  cursor: url(assets/Img/flechaGlitch.png), auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  cursor: url(assets/Img/mano.png), auto;
+}
+
+@media (max-width: 850px) {
+  header {
+    flex-direction: column;
+  }
+  .redes {
+    flex-direction: row;
+  }
+  .logo img {
+    height: 100px;
+  }
+  .logo {
+    justify-content: space-between;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
