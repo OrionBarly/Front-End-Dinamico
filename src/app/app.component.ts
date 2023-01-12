@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-
-import { PorfolioService } from './servicios/porfolio.service';
+import { Component } from '@angular/core';
+import * as canvas from 'canvas';
 
 @Component({
   selector: 'app-root',
@@ -9,8 +8,4 @@ import { PorfolioService } from './servicios/porfolio.service';
 })
 export class AppComponent {
   title = 'Front-End';
-
-  constructor(private _Porfolio: PorfolioService) {
-    _Porfolio.Carga(['script']);
-  }
 }
