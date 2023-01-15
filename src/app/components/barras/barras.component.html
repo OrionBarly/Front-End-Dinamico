@@ -1,44 +1,40 @@
 <article>
-    <div class="box">
-        <div class="circle" data-dots="100" data-percent="15"></div>
-        <div class="text">
-            <h2 class="numero">17%</h2><small>HTML</small>
-        </div>
-    </div>
-    <div class="box">
-        <div class="circle" data-dots="100" data-percent="15"></div>
-        <div class="text">
-            <h2 class="numero">15%</h2><small>CSS</small>
-        </div>
-    </div>
-    <div class="box">
-        <div class="circle" data-dots="100" data-percent="10"></div>
-        <div class="text">
-            <h2 class="numero">10%</h2><small>JavaScript</small>
-        </div>
-    </div>
-    <div class="box">
-        <div class="circle" data-dots="100" data-percent="30"></div>
-        <div class="text">
-            <h2 class="numero">30%</h2><small>Photoshop</small>
-        </div>
-    </div>
-    <div class="box">
-        <div class="circle" data-dots="100" data-percent="15"></div>
-        <div class="text">
-            <h2 class="numero">15%</h2><small>Processing</small>
-        </div>
-    </div>
-    <div class="box">
-        <div class="circle" data-dots="100" data-percent="20"></div>
-        <div class="text">
-            <h2 class="numero">20%</h2><small>Ilustrator</small>
-        </div>
-    </div>
-    <div class="box">
-        <div class="circle" data-dots="100" data-percent="15"></div>
-        <div class="text">
-            <h2 class="numero">15%</h2><small>PureData</small>
-        </div>
-    </div>
+
+    <circle-progress [percent]="17" [radius]="100" [outerStrokeWidth]="16" [innerStrokeWidth]="2" titleFontSize="40px"
+        subtitleFontSize="25px" [outerStrokeColor]="'#00c300'" [innerStrokeColor]="'#002800'" [animation]="true"
+        [titleColor]="'#3ded97'" [subtitleColor]="'#03ac13'" subtitle="HTML"
+        [animationDuration]="300">HTML</circle-progress>
+
+    <circle-progress [percent]="15" [radius]="100" [outerStrokeWidth]="16" [innerStrokeWidth]="2" titleFontSize="40px"
+        subtitleFontSize="25px" [outerStrokeColor]="'#00c300'" [innerStrokeColor]="'#002800'" [animation]="true"
+        [titleColor]="'#3ded97'" [subtitleColor]="'#03ac13'" subtitle="CSS"
+        [animationDuration]="300">CSS</circle-progress>
+
+    <circle-progress [percent]="10" [radius]="100" [outerStrokeWidth]="16" [innerStrokeWidth]="2" titleFontSize="40px"
+        subtitleFontSize="25px" [outerStrokeColor]="'#00c300'" [innerStrokeColor]="'#002800'" [animation]="true"
+        [titleColor]="'#3ded97'" [subtitleColor]="'#03ac13'" subtitle="JavaScript"
+        [animationDuration]="300">JavaScript</circle-progress>
+
+    <circle-progress [percent]="30" [radius]="100" [outerStrokeWidth]="16" [innerStrokeWidth]="2" titleFontSize="40px"
+        subtitleFontSize="25px" [outerStrokeColor]="'#00c300'" [innerStrokeColor]="'#002800'" [animation]="true"
+        [titleColor]="'#3ded97'" [subtitleColor]="'#03ac13'" subtitle="Photoshop"
+        [animationDuration]="300">Photoshop</circle-progress>
+
+    <circle-progress [percent]="13" [radius]="100" [outerStrokeWidth]="16" [innerStrokeWidth]="2" titleFontSize="40px"
+        subtitleFontSize="25px" [outerStrokeColor]="'#00c300'" [innerStrokeColor]="'#002800'" [animation]="true"
+        [titleColor]="'#3ded97'" [subtitleColor]="'#03ac13'" subtitle="Processing"
+        [animationDuration]="300">Processing</circle-progress>
+
+    <circle-progress [percent]="20" [radius]="100" [outerStrokeWidth]="16" [innerStrokeWidth]="2" titleFontSize="40px"
+        subtitleFontSize="25px" [outerStrokeColor]="'#00c300'" [innerStrokeColor]="'#002800'" [animation]="true"
+        [titleColor]="'#3ded97'" [subtitleColor]="'#03ac13'" subtitle="Ilustrator"
+        [animationDuration]="300">Ilustrator</circle-progress>
+
+    <circle-progress [percent]="15" [radius]="100" [outerStrokeWidth]="16" [innerStrokeWidth]="2" titleFontSize="40px"
+        [outerStrokeColor]="'#00c300'" [innerStrokeColor]="'#002800'" [animation]="true" subtitle="PureData"
+        [titleColor]="'#3ded97'" [subtitleColor]="'#03ac13'" subtitleFontSize=" 25px"
+        [animationDuration]="300">PureData</circle-progress>
+
 </article>
+
+<script src="./../../../assets/js/circulos.js"></script>
