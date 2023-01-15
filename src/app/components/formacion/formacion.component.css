@@ -1,0 +1,26 @@
+* {
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-family: "Teko", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+h1 {
+  font-size: 30px;
+  display: inline;
+  font-family: "Bebas Neue", cursive;
+}
+
+h2 {
+  padding: 15px;
+  font-family: "Bebas Neue", cursive;
+}
+
+h3 {
+  font-size: 20px;
+  float: right;
+  padding: 10px;
+  top: -7px;
+  font-family: "Bebas Neue", cursive;
+}

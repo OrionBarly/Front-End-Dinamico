@@ -6,9 +6,11 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./background.component.css'],
 })
 export class BackgroundComponent /*implements OnInit */ {
-  /*   title = 'matrix';
+  /* title = 'matrix';
 
-  @ViewChild('myCanvas', { static: true }) myCanvas!: ElementRef;
+  
+  @ViewChild('myCanvas')
+  private myCanvas!: ElementRef = {} as ElementRef;
 
   public ctx!: CanvasRenderingContext2D;
   value: string | undefined;
@@ -2296,5 +2298,5 @@ if(this.y > ch){
 }
 update();
 
-  }*/
+  } */
 }

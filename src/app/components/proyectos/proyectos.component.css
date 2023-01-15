@@ -1,0 +1,16 @@
+h2 {
+  padding: 15px;
+  letter-spacing: 0.1em;
+  font-family: "Bebas Neue", cursive;
+}
+
+iframe {
+  align-items: center;
+  float: none;
+  position: relative;
+  justify-content: space-around space-between;
+  display: flex;
+  border-radius: 3%;
+  box-shadow: 0 0 1em rgb(1, 114, 8);
+  left: 25%;
+}
