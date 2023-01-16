@@ -2,8 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
-import { CirculosService } from './servicios/circulos.service';
-
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HeaderComponent } from './components/header/header.component';
@@ -42,7 +40,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     HttpClientModule,
     NgCircleProgressModule.forRoot({}),
   ],
-  providers: [CirculosService],
+  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
